@@ -33,7 +33,6 @@ figure span{
 }
 .main__menu ul li:hover{
     cursor: pointer;
-    opacity: 85%;
     color: #001F89;
 }
 .main__menu ul li{
