@@ -10,3 +10,12 @@ presentacion.addEventListener("click", ()=>{
 function mostrarTar (){
     detDiv.classList.remove("none");
 }
+let fig = document.querySelectorAll(".previewImg figure");
+let preview = document.querySelector(".selectedPreview figure");
+for (const figures of fig){
+    figures.addEventListener("click", ()=>{
+        let aux = preview.firstElementChild;
+       preview.replaceChild(figures.firstElementChild,preview.firstElementChild);
+       figures.appendChild(aux);
+    })
+}

@@ -400,23 +400,55 @@ figure span{
     opacity: 85%;
 }
 
-.none{
-    display: none;
-}
-
 .detalles{
     background-color: #00000086;
-    /* opacity: 50%; */
     position: fixed;
     top:0;
     width: 100%;
-    height: 120vh;
+    height: 125vh;
     z-index: 2000;
 }
 .presentacion{
     width: 80%;
     height: 80vh;
-    opacity: 100%;
     margin: 10vh auto;
-    background-color: #fff;
+    background: linear-gradient(90deg,#CAF3F9 12%, #045AFF 100%);
+}
+.presentacion div{
+    display: flex;
+    justify-content: space-around;
+}
+.selectedPreview{
+    padding: 1px;
+    width: 70%;
+    margin-top: 10px;
+}
+.selectedPreview figure{
+    margin: 3vh 5vh;
+}
+.selectedPreview figure img{
+    width: 80%;
+}
+.previewImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    margin: 4vh 5vh 3vh 0;
+    padding: 10px 15px;
+    background: linear-gradient(180deg, #1C42C9 0%, #5572D8 100%);
+}
+.previewImg figure img {
+    width: 100%;
+    height: 23vh;
+    object-fit: cover;
+    object-position: top;
+}
+.previewImg figure img:hover{
+    border: #001F89 solid 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.none > *, div.none{
+    display: none;
 }
