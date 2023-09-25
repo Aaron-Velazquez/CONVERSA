@@ -218,7 +218,7 @@ figure span{
 
 .section__pricing{
     display: flex;
-    padding: 4vh 1vh;
+    padding: 2vh 1vh;
     flex-direction: column;
     align-items: center;
     color: #fff;
@@ -226,18 +226,19 @@ figure span{
     background-color: #4971F4;
     margin: 25px auto;
     border-radius: 30px;
-    height: 918px;
+    height: 870px;
 }
 .section__pricing > * {
-    padding: 10px;
+    padding: 7x;
 }
 .section__pricing h3{
-    font-size: 40px;    
+    font-size: 40px;
+    margin-bottom: 5px;
 }
 .section__pricing p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 .price__boxes{
     display: flex;
@@ -252,7 +253,7 @@ figure span{
 }
 .img-1{
     position: relative;
-    translate: -10px 50px;
+    translate: -15px 20px;
 }
 .img-2{
     position: relative;
@@ -263,7 +264,7 @@ figure span{
     align-items: center;
     flex-direction: column;
     width: 40vh;
-    height: 722px;
+    height: 720px;
     color: #000;
     background-color: #E2F3FF;
     border-radius: 9px;
@@ -275,14 +276,14 @@ figure span{
     text-align: center;
 }
 .little__boxes h4{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 28px;
     color: #1C2B5C;
 }
 .box__buttons{
     display: flex;
     flex-direction: column;
-    padding: 0 10px 20px 0;
+    padding: 0 0 20px 0;
     width: 100%;
     align-items: center;
 }

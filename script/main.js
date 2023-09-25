@@ -5,15 +5,15 @@ const detDiv = document.querySelector("#ver_detalles");
 const presentacion = document.querySelector(".presentacion");
 but_Bas.addEventListener("click", ()=>{
     detDiv.classList.remove("none");
-    agregarImg(but_Bas);
+    // agregarImg(but_Bas);
 })
 but_Med.addEventListener("click", ()=>{
     detDiv.classList.remove("none");
-    agregarImg(but_Med);
+    // agregarImg(but_Med);
 })
 but_Ava.addEventListener("click", ()=>{
     detDiv.classList.remove("none");
-    agregarImg(but_Ava);
+    // agregarImg(but_Ava);
 })
 presentacion.addEventListener("dblclick", ()=>{
     detDiv.classList.add("none");
