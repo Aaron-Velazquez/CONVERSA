@@ -50,40 +50,41 @@ figure span{
 }
 .main__hero{ 
     padding: 30px 15px;
-    margin: 15px 40px;
+    width: 95%;
+    margin: 15px auto;
     display: flex;
-    justify-content: space-around;
-    height: 50vh;
+    /* height: 50vh; */
     background-color: #001F89;
     border-radius: 30px;
 }
 .main__hero_1{ 
     display: flex;
     align-items:center;
+    width: 100%;
+    /* border: #000 solid 1px; */
 }
 .modos{
-    width: 100%;
+    min-width: 80%; 
 }
 .modos img{
     width: 100%;
-
 }
 .main__hero_2{
-    width: 50%;
+    width: 100%;
+    /* border: #000 1px solid; */
+}
+.hero__text{
     color: #fff;
-    margin: 30px 0px;
+    /* border: #000 1px solid; */
 }
-.main__hero_2 p{
-    width: 60%;
-}
-.main__hero_2 :first-child{
+.hero__text :first-child{
     color: #97E9FF;
-    margin-top: 25px;
+    margin: 25px 0;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-.main__hero_2 > *{
-    padding: 10px 0;
+.hero__text > *{
+    padding: 5px 0;
 }
 .main__hero_2 h1{
     font-size: 40px;
@@ -193,10 +194,8 @@ figure span{
     font-weight: 500;
 }
 .text{
-    width: 31vh;
-}
-.text p{
-    text-align: justify;
+    min-width: 50%;
+    max-width: 60%;
 }
 .text>*{
     padding: 0 0 15px 0;
@@ -206,7 +205,9 @@ figure span{
 }
 .box{
     display: flex;
+    justify-content: center;
     font-size: 16px;
+    width: 100%;
 }
 .box h4{
     font-size: 24px;
@@ -453,7 +454,24 @@ figure span{
 .none > *, div.none{
     display: none;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1230px){
+    .section__pricing{
+        width: 100%;
+        border-radius: 0;
+    }
+    .img-1, .img-2{
+        width: 200px;
+    }
+    .little__boxes{
+        justify-content: center;
+        height: 680px;
+        width: 30%;
+    }
+    .little__boxes p{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 950px) {
     .main__menu ul{
         display: none;
     }
@@ -464,8 +482,10 @@ figure span{
     .main__hero{
         flex-direction: column;
         width: 100%;
+        text-align: center;
+        align-items: center;
         margin: 15px 0;
-        padding: 30px 0;
+        padding: 30px 1vh;
         height: fit-content;
         border-radius: 0;
     }
@@ -473,7 +493,7 @@ figure span{
         display: none;
     }
     .main__hero_2{
-        width: 100%;
+        width: 90%;
    }
    .section__benefits{
     flex-direction: column;
@@ -562,7 +582,7 @@ figure span{
         gap: 35px;
     }
     .little__boxes{
-        width: 50vh;
+        width: 45vh;
         max-width: 95%;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
