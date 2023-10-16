@@ -507,6 +507,39 @@ figure span{
     }
 }
 @media only screen and (max-width: 950px) {
+    .presentacion{
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    .selectedPreview{
+        justify-content: center;
+        align-items: center;
+    }
+    .selectedPreview h2{
+        font-size: 28px;
+    }
+    .selectedPreview figure{
+        width: 95%;
+        height: 30%;
+    }
+    .selectedPreview figure img{
+        /* min-width: 75%; */
+        max-width: 90%;
+    }
+    .preview_area{
+        width: 100%;
+        margin: 0;
+    }
+    .previewImg{
+        flex-direction: row;
+        margin: 20px 0;
+    }
+    .previewImg h3{
+        display: none;
+    }
     .main__menu ul{
         display: none;
     }
