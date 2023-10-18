@@ -508,7 +508,7 @@ figure span{
 @media only screen and (max-width: 950px) {
     .presentacion{
         flex-direction: column;
-        width: 100%;
+        width: 98%;
         justify-content: center;
         align-items: center;
         margin-top: 2vh;
