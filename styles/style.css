@@ -542,11 +542,13 @@ figure span{
         margin: 20px 0;
         width: 100%;
         padding: 0;
+        /* height: fit-content; */
     }
     .previewImg figure{
-        height: 20vh;
+        max-height: 65%;
         width: 50%;
         margin: 0 5px;
+        border: #d4d4d4d4 1px solid;
     }
     .previewImg figure img{
         width: 100%;
