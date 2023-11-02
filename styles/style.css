@@ -239,7 +239,7 @@ figure span{
 .section__pricing p{
     font-size: 18px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 .price__boxes{
     display: flex;
@@ -265,10 +265,16 @@ figure span{
     align-items: center;
     flex-direction: column;
     width: 40vh;
-    height: 720px;
+    height: 700px;
     color: #000;
     background-color: #E2F3FF;
     border-radius: 9px;
+}
+.first p{
+    padding-bottom: 10px;
+}
+.first, .third{
+    padding-top: 15px;
 }
 .little__boxes p{
     font-size: 16px;
@@ -284,7 +290,6 @@ figure span{
 .box__buttons{
     display: flex;
     flex-direction: column;
-    padding: 0 0 20px 0;
     width: 100%;
     align-items: center;
 }
