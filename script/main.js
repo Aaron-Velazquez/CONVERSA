@@ -34,3 +34,13 @@ for (const figures of fig){
        figures.appendChild(aux);
     })
 }
+gsap.from('.main__hero_1',{
+    x:-300,
+    delay:0.5,
+    duration:1
+});
+gsap.from('.main__hero_2',{
+    x:900,
+    delay:0.5,
+    duration:1
+});
