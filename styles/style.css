@@ -429,6 +429,19 @@ figure span{
     font-size: 42px;
     
 }
+.salir{
+    margin-top: 0.5rem;
+    right: 11%;
+    width: 2rem;
+    position: absolute;
+}
+.salir:hover{
+    cursor: pointer;
+}
+.salir img{
+    display: block;
+    width: 100%;
+}
 .preview_area{
     width: 60%;
     margin-left: 30px;
@@ -517,6 +530,10 @@ figure span{
         justify-content: center;
         align-items: center;
         margin-top: 2vh;
+    }
+    .salir{
+        right: 2%;
+        top: 2%;
     }
     .selectedPreview{
         justify-content: center;
