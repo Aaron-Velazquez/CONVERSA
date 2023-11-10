@@ -3,6 +3,7 @@ const but_Med = document.getElementById("click_Med");
 const but_Ava = document.getElementById("click_Ava");
 const detDiv = document.querySelector("#ver_detalles");
 const presentacion = document.querySelector(".presentacion");
+const salir = document.querySelector(".salir");
 but_Bas.addEventListener("click", ()=>{
     detDiv.classList.remove("none");
     // agregarImg(but_Bas);
@@ -15,7 +16,7 @@ but_Ava.addEventListener("click", ()=>{
     detDiv.classList.remove("none");
     // agregarImg(but_Ava);
 })
-presentacion.addEventListener("dblclick", ()=>{
+salir.addEventListener("click", ()=>{
     detDiv.classList.add("none");
 })
 // function agregarImg (boton){
