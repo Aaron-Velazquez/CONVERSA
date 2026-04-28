@@ -1,0 +1,13 @@
+# robots.txt para conversa.com.py
+
+User-agent: *
+Allow: /
+
+# Bloquear acceso a rutas privadas
+Disallow: /login
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://conversa.com.py/sitemap.xml
